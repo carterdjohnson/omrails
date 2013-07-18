@@ -9,9 +9,7 @@ group :production do
   gem 'pg'
 end
 
-group :development, :test do
-  gem 'sqlite3'
-end
+gem 'sqlite3'
 
 group :assets do
   gem 'sass-rails', '~> 4.0.0'
